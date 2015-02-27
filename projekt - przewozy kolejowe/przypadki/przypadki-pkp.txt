@@ -1,0 +1,65 @@
+Przypadek I:
+Zakup biletu w kasie.
+
+0. Klient podchodzi do kasy.
+1. Klient podaje cel, date podró¿y i godzinê odjazdu.
+2. Klient wybiera klase wagonu w poci¹gu oraz jego rodzaj (wybiera przewoŸnika).
+3. Jeœli przewoŸnik dopuszcza stosowanie zni¿ek dla okreœlonych grup klientów, klient podaje swoje dane typu, czy jest studentem/uczniem/emerytem.
+4. Kasjer sprawdza mo¿liwoœæ zakupu biletu wybranego przez klienta, jego dokumenty i potwierdza podane przez niego dane.
+4a. W razie wyst¹pienia problemów z zakupem biletu na wybrane przez klienta po³¹czenie, kasjer proponuje klientowi po³¹czenie zbli¿one warunkami do tego, które wybra³ wczeœniej.
+5. Kasjer wprowadza do bazy informacje o zakupie biletu przez klienta.
+6. Kasjer drukuje bilet.
+7. Klient p³aci za bilet.
+
+Przypadek II:
+Zakup biletu on-line.
+ 
+0. Klient rejestruje/loguje siê na stronie internetowej.
+1. Klient wybiera interesuj¹ce go po³¹czenie i ustala cel, miejsce rozpoczêcia, datê podró¿y i godzinê odjazdu.
+2. Klient wybiera klasê wagonu oraz rodzaj poci¹gu.
+3. Jeœli s¹ mo¿liwe zni¿ki i przys³uguj¹ one klientowi, wybiera on rodzaj zni¿ki.
+4. System sprawdza mo¿liwoœæ zakupu wybranego przez klienta biletu.
+4a. Jeœli wybrany przez klienta bilet nie jest dostêpny, transakcja zostaje anulowana, a klient ma mo¿liwoœæ wybrania innego po³¹czenia.
+5. Klient wybiera rodzaj zap³aty.
+6. System wprowadza informacje do bazy.
+7. Klient p³aci pieni¹dze w wybrany przez siebie sposób (gotówk¹ lub przelewem).
+8. Klient otrzymuje potwierdzenie zap³aty on-line i mo¿liwoœæ wydrukowania biletu.
+9. Klient drukuje bilet. 
+
+Przypadek III:
+Rezerwacja biletu on-line.
+
+0. Klient rejestruje/loguje siê na stronie internetowej.
+1. Klient wybiera bilet, który chce zarezerwowaæ.
+2. System sprawdza, czy jest mo¿liwa rezerwacja.
+2a. Jeœli nie klient otrzymuje informacjê o braku rezerwacji biletu.
+2b. Jeœli jest mo¿liwa rezerwacja, system dodaje informacje do bazy, a klient otrzymuje komunikat o zatwierdzeniu rezerwacji.
+3. Jeœli rezerwacja zosta³a zatwierdzona, klient drukuje jej potwierdzenie.
+4. Klient odbiera zarezerwowany bilet w kasie, p³aci za niego i za jego rezerwacje.
+
+Przypadek IV:
+Rezerwacja biletu w kasie.
+ 
+0. Klient przychodzi do kasy.
+1. Klient rezerwuje wybrany przez siebie bilet.
+2. Kasjer sprawdza, czy jest mo¿liwoœæ rezerwacji.
+2a. Jeœli rezerwacja jest niemo¿liwa kasjer informuje o tym klienta.
+2b. Jeœli rezerwacja jest mo¿liwa kasjer dokonuje rezerwacji i informuje o tym klienta.
+3. Dane na temat rezerwacji s¹ zapisywane w systemie.
+4. Klient odbiera bilet.
+
+Przypadek V:
+Anulowanie rezerwacji on-line.
+
+0. Klient rejestruje/loguje siê na stronie internetowej.
+1. Klient wybiera rezerwacje, któr¹ chce anulowaæ.
+3. Jeœli anulowanie rezerwacji zosta³o zatwierdzone, klient otrzymuje potwierdzenie.
+
+Przypadek VI:
+Sprawdzenie rozk³adu jazdy poci¹gów on-line.
+
+0. Klient wchodzi na stronê internetow¹ zawieraj¹c¹ rozk³ad jazdy.
+1. Klient wybiera cel podró¿y i podaje miejsce z którego chce rozpocz¹æ podró¿.
+2. Klient podaje okreœlony przedzia³ czasowy, w którym maj¹ byæ wyszukiwane po³¹czenia.
+3. Po zatwierdzeniu, system wyszukuje informacjê na temat dostêpnych po³aczeñ.
+4. Klient analizuje informacje.
